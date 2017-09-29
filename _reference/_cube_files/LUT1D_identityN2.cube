@@ -1,0 +1,6 @@
+# Diego Inácio • 2017
+TITLE "1D Identity LUT, N = 2"
+LUT_1D_SIZE 2
+
+0.0000 0.0000 0.0000
+1.0000 1.0000 1.0000

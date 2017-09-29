@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# ${1:author} • ${2:year}
+TITLE "${3:title}"
+LUT_1D_SIZE 2
+
+0.0000 0.0000 0.0000
+1.0000 1.0000 1.0000
+]]></content>
+    <tabTrigger>identity1D_N2</tabTrigger>
+    <scope>source.cube</scope>
+</snippet>

@@ -1,0 +1,47 @@
+# Diego Inácio • 2017
+---
+name: cubeLUT
+scopeName: source.cube
+fileTypes: [cube]
+uuid: 3260e1c6-0548-4245-8c8c-06c278014d33
+
+patterns:
+- match: \s*((TITLE).*$\n?)
+  captures:
+    '1': {name: string.quoted.double.cube}
+    '2': {name: support.constant.cube}
+
+- match: \s*((LUT_1D_SIZE|LUT_3D_SIZE).*$\n?)
+  captures:
+    '1': {name: variable.parameter.cube}
+    '2': {name: keyword.control.cube}
+
+- match: \s*((DOMAIN_MIN|DOMAIN_MAX|LUT_1D_INPUT_RANGE|LUT_3D_INPUT_RANGE).*$\n?)
+  captures:
+    '1': {name: variable.parameter.cube}
+    '2': {name: support.function.cube.cube}
+
+- comment: regular expression for floating point numbers..
+  name: constant.numeric.float.cube
+  match: ([-+]?[0-9]*\.[0-9]*)
+
+- comment: regular expression for integer numbers..
+  name: constant.numeric.integer.cube
+  match: \b[-+]?[0-9]+\b
+
+- comment: string match..
+  name: string.quoted.double.cube
+  begin: '"'
+  beginCaptures:
+    '1':
+      name: punctuation.definition.string.begin.cube
+  end: '"'
+  endCaptures:
+    '1':
+      name: punctuation.definition.string.end.cube
+
+- comment: line comment match..
+  captures:
+    '1': {name: comment.line.hashtag.cube}
+    '2': {name: punctuation.definition.comment.cube}
+  match: \s*((#).*$\n?)

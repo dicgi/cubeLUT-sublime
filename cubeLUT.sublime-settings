@@ -1,0 +1,7 @@
+{
+	"extensions": "cube",
+		// select color scheme, if you want to change
+	"color_scheme": "Packages/cubeLUT-sublime/themes/cubeLUT-light.tmTheme"
+		// don't forget to comment the above line and uncomment the line below
+	//"color_scheme": "Packages/cubeLUT-sublime/themes/cubeLUT-dark.tmTheme"
+}

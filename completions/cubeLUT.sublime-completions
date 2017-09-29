@@ -1,0 +1,13 @@
+{
+	"scope": "source.cube",
+
+	"completions": [
+		{"trigger": "TITLE\ttext", "contents": "TITLE \"${1:title}\""},
+		{"trigger": "LUT_1D_SIZE\tN", "contents": "LUT_1D_SIZE ${1:2}"},
+		{"trigger": "LUT_3D_SIZE\tN", "contents": "LUT_3D_SIZE ${1:2}"},
+		{"trigger": "DOMAIN_MIN\tchannels R, G, B", "contents": "DOMAIN_MIN ${1:0.0} ${2:0.0} ${3:0.0}"},
+		{"trigger": "DOMAIN_MAX\tchannels R, G, B", "contents": "DOMAIN_MAX ${1:1.0} ${2:1.0} ${3:1.0}"},
+		{"trigger": "LUT_1D_INPUT_RANGE\tvalues min, max", "contents": "LUT_1D_INPUT_RANGE ${1:0.0} ${2:1.0}"},
+		{"trigger": "LUT_3D_INPUT_RANGE\tvalues min, max", "contents": "LUT_3D_INPUT_RANGE ${1:0.0} ${2:1.0}"}
+	]
+}
