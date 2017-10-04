@@ -15,15 +15,13 @@ clone this repository in your sublime package folder.
 ![cubeLUT syntax](/_sourceimages/gif03.gif "themes")
 
 ## Examples
-Some development examples of *cube* files and interactive visualization of LUTs. More examples can be found in the subdirectory [_examples](/_examples_).
+Some development examples of *cube* files and interactive visualization of LUTs. More examples can be found in the subdirectory [_examples](/_examples).
 
 - **LUT1D - Cumulative random**
-<iframe width="1024" height="512" frameborder="0" scrolling="no" src="//plot.ly/~diegodci/45.embed"></iframe>
 ![cubeLUT examples](/_sourceimages/LUT1D_ccoCUMSUM.png "LUT1D result")
 ![cubeLUT examples](/_sourceimages/LUT1D_ccoCUMSUM_wave.png "LUT1D waves")
 
 - **LUT3D - Saturation**
-<iframe width="1024" height="512" frameborder="0" scrolling="no" src="//plot.ly/~diegodci/47.embed"></iframe>
 ![cubeLUT examples](/_sourceimages/LUT3D_scoSAT.png "LUT3D result")
 ![cubeLUT examples](/_sourceimages/LUT3D_scoSAT_wave.png "LUT3D waves")
 
